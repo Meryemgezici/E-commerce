@@ -72,11 +72,3 @@ export function renderBasketItem(product) {
   basketList.appendChild(basketItem);
 }
 
-// Alternatif yöntem:
-// document.body.addEventListener('click', (event) => {
-//   if (event.target === sepetBtn) {
-//     modal.classList.add('active');
-//   } else if (event.target === closeBtn) {
-//     modal.classList.remove('active');
-//   }
-// });
